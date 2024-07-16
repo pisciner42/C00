@@ -1,0 +1,82 @@
+#!/bin/bash
+
+# Compilar ft_putchar.c
+if [ -f "ex00/ft_putchar.c" ]; then
+  echo "Compilando ft_putchar.c:"
+  cc -Wall -Werror -Wextra ex00/ft_putchar.c -o ft_putchar
+else
+  echo "ex00/ft_putchar.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_alphabet.c
+if [ -f "ex01/ft_print_alphabet.c" ]; then
+  echo "Compilando ft_print_alphabet.c:"
+  cc -Wall -Werror -Wextra ex01/ft_print_alphabet.c -o ft_print_alphabet
+else
+  echo "ex01/ft_print_alphabet.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_reverse_alphabet.c
+if [ -f "ex02/ft_print_reverse_alphabet.c" ]; then
+  echo "Compilando ft_print_reverse_alphabet.c:"
+  cc -Wall -Werror -Wextra ex02/ft_print_reverse_alphabet.c -o ft_print_reverse_alphabet
+else
+  echo "ex02/ft_print_reverse_alphabet.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_numbers.c
+if [ -f "ex03/ft_print_numbers.c" ]; then
+  echo "Compilando ft_print_numbers.c:"
+  cc -Wall -Werror -Wextra ex03/ft_print_numbers.c -o ft_print_numbers
+else
+  echo "ex03/ft_print_numbers.c não encontrado."
+fi
+echo
+
+# Compilar ft_is_negative.c
+if [ -f "ex04/ft_is_negative.c" ]; then
+  echo "Compilando ft_is_negative.c:"
+  cc -Wall -Werror -Wextra ex04/ft_is_negative.c -o ft_is_negative
+else
+  echo "ex04/ft_is_negative.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_comb.c
+if [ -f "ex05/ft_print_comb.c" ]; then
+  echo "Compilando ft_print_comb.c:"
+  cc -Wall -Werror -Wextra ex05/ft_print_comb.c -o ft_print_comb
+else
+  echo "ex05/ft_print_comb.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_comb2.c
+if [ -f "ex06/ft_print_comb2.c" ]; then
+  echo "Compilando ft_print_comb2.c:"
+  cc -Wall -Werror -Wextra ex06/ft_print_comb2.c -o ft_print_comb2
+else
+  echo "ex06/ft_print_comb2.c não encontrado."
+fi
+echo
+
+# Compilar ft_putnbr.c
+if [ -f "ex07/ft_putnbr.c" ]; then
+  echo "Compilando ft_putnbr.c:"
+  cc -Wall -Werror -Wextra ex07/ft_putnbr.c -o ft_putnbr
+else
+  echo "ex07/ft_putnbr.c não encontrado."
+fi
+echo
+
+# Compilar ft_print_combn.c
+if [ -f "ex08/ft_print_combn.c" ]; then
+  echo "Compilando ft_print_combn.c:"
+  cc -Wall -Werror -Wextra ex08/ft_print_combn.c -o ft_print_combn
+else
+  echo "ex08/ft_print_combn.c não encontrado."
+fi
+echo
